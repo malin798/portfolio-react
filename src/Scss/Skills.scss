@@ -1,0 +1,25 @@
+.skills {
+  font-family:'roboto';
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  text-align: center;
+  margin-top: 50px;
+  
+  .skill-list {
+    line-height: 25px;
+    text-align: center;
+    width: 50%;
+    
+    @media (min-width: 668px) {
+      width: 30%;
+    }
+
+    ul {
+      list-style-type: none;
+      font-size: 18px;
+      padding: 0;
+    }
+  }
+}

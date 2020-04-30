@@ -3,37 +3,50 @@ import LinkedIn from 'images/linkedin.svg'
 import GitHub from 'images/github.svg'
 import StackOverflow from 'images/stackoverflow.svg'
 import ProfilePic from 'images/profilepic.png'
+import { ContactItem } from './ContactItem'
 
-export const Header = () => {
-  return (
-    <header>
+export const Header = () => (
+  <header>
 
-      <section class="social-media-top">
+    <section class="social-media-top">
+      < ContactItem 
+        className="small"
+        Link="https://www.linkedin.com/in/malin-andersson-22261b190/"
+        image={LinkedIn}
+        alt="link to linked in"
+      />
 
-        <a title="linked in" class="social-media small" href="https://www.linkedin.com/in/malin-andersson-22261b190/" target="_blank"> 
-          <img src={LinkedIn} alt="linked in"/>
-        </a>
+       < ContactItem 
+        className="small"
+        Link="https://github.com/malin798"
+        image={GitHub}
+        alt="link to github"
+      />
 
-        <a title="github" class="social-media small" href="https://github.com/malin798" target="_blank"> 
-          <img src={GitHub} alt="github"/> 
-        </a>
+       < ContactItem 
+        className="small"
+        Link="https://stackoverflow.com/users/12670065/malin-marie"
+        image={StackOverflow}
+        alt="stack overflow"
+      />
+    
+    </section>
 
-        <a title="stack overflow" class="social-media small" href="https://stackoverflow.com/users/12670065/malin-marie" target="_blank"> 
-          <img src={StackOverflow} alt="stack overflow"/> 
-        </a>
+    <section class="text bold">
 
-      </section>
+      <p>
+        <span class="not-bold">
+          Portfolio:
+        </span> 
+        MALIN ANDERSSON
+      </p>
 
-      <section class="presentation bold">
+      <h1>frontend developer</h1>
+      <h2>+ Communication skills</h2>
 
-        <p><span class="not-bold">Portfolio:</span> MALIN ANDERSSON</p>
-        <h1>frontend developer</h1>
-        <h2>+ Communication skills</h2>
+    </section>
 
-      </section>
+    <img class ="profile-image" src={ProfilePic} alt="profile picture"/>
 
-      <img class ="profile-image" src={ProfilePic} alt="profile picture"/>
-
-    </header>
-  )
-}
+  </header>
+)

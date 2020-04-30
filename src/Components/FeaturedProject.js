@@ -4,9 +4,10 @@ import React from 'react'
 // import Image3 from 'images/featured-project-weather-app.png'
 // import Image4 from 'images/featured-project-business-site.png'
 
-export const FeaturedProject = ({ className, link, image, alt, title, subtitle, tags }) => {
+export const FeaturedProject = ({ className = "", link, image, alt, title, subtitle, tags }) => {
   return (
-    <li className={className}>
+    
+    <div className={`featured-project-item ${className}`}>
 
       <a href={link} target="_blank">
         <img src={image} alt={alt} className="image"></img>
@@ -20,14 +21,14 @@ export const FeaturedProject = ({ className, link, image, alt, title, subtitle, 
         </p>
       </a>
       
-      <section className="project-tags">
+      <section className="all-tags">
         {tags.map((tag) => {
           return (
-          <div className="tags">{tag}</div>
+          <div className="tag">{tag}</div>
           )
         })}
       </section>
 
-    </li>
+    </div>
   )
 }

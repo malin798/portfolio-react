@@ -10,10 +10,11 @@ export const FeaturedProjects = () => {
   return (
     <section className="background text-box">
 
-    <h3 className="orange-box">FEATURED PROJECTS</h3>
+      <h3 className="orange-box">
+        FEATURED PROJECTS
+      </h3>
 
-      <ul className="left-list">
-
+      <section className="featured-project">
         < FeaturedProject 
           link="https://malins-pizza-bot-project.netlify.com"
           image={Image1}
@@ -26,7 +27,7 @@ export const FeaturedProjects = () => {
             "Javascript ES6"
           ]} 
         />
-         < FeaturedProject 
+        < FeaturedProject 
           link="https://malins-project-clue.netlify.com/"
           image={Image2}
           alt="Cluedo project"
@@ -38,7 +39,7 @@ export const FeaturedProjects = () => {
             "Javascript ES6"
           ]} 
         />
-           < FeaturedProject 
+        < FeaturedProject 
           className="hidden-mobile"
           link="https://malins-weather-app.netlify.com/"
           image={Image3}
@@ -52,7 +53,7 @@ export const FeaturedProjects = () => {
             "API"
           ]} 
         />
-          < FeaturedProject 
+        < FeaturedProject 
           className="hidden-mobile"
           link="https://malins-business-site.netlify.com/"
           image={Image4}
@@ -65,8 +66,7 @@ export const FeaturedProjects = () => {
             "Javascript ES6"
           ]} 
         />
-       
-      </ul>
       </section>
+    </section>
   )
 }

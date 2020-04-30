@@ -10,9 +10,10 @@ export const Contact = () => {
 
       <h3 class="orange-box">FOR MORE</h3>
 
-      <ul class="social-media-bottom colored-text">
+      <div class="social-media-bottom colored-text">
 
         < ContactItem 
+          className="big"
           Link="https://www.linkedin.com/in/malin-andersson-22261b190/"
           image={Linkedin}
           alt="link to linked in"
@@ -20,6 +21,7 @@ export const Contact = () => {
         />
 
         < ContactItem 
+          className="big"
           Link="https://github.com/malin798"
           image={Github}
           alt="link to github"
@@ -27,13 +29,14 @@ export const Contact = () => {
         />
 
         < ContactItem 
+          className="big"
           Link="https://stackoverflow.com/users/12670065/malin-marie"
           image={StackOverflow}
           alt="link to stackoverflow"
           title="STACK OVERFLOW"
         />
 
-      </ul>
+      </div>
     </section>
     )
     }

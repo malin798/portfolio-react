@@ -2,7 +2,7 @@ import React from 'react'
 
 export const SkillsListItem= ({title, skills}) => (
 
-  <div className="list">
+  <div className="skill-list">
     <p className="colored-text bold"> 
       {title}
     </p> 

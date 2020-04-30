@@ -1,0 +1,21 @@
+.other-projects {
+  margin-top: 25px;
+  width: 100%;
+
+  @media (min-width: 1025px) { 
+    margin-top: 70px;
+  }
+
+  p {
+    margin-top: 25px;
+  }
+
+  .other-project-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: flex-start;
+    text-align: left;
+  }
+}
+

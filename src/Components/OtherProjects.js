@@ -4,11 +4,11 @@ import { OtherProject } from './OtherProject'
 export const OtherProjects = () => {
   return (
 
-    <section class="other-projects text-box">
+    <section className="other-projects text-box">
 
-          <h3 class="colored-text">OTHER PROJECTS</h3>
+          <h3 className="colored-text">OTHER PROJECTS</h3>
 
-          <ul class="column-list left">
+          <div className="other-project-list">
             < OtherProject 
               link="https://malins-survey.netlify.com/"
               title="Survey project."
@@ -43,7 +43,7 @@ export const OtherProjects = () => {
               ]}
             />
             
-          </ul>
+          </div>
 
         </section>
 

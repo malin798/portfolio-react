@@ -1,17 +1,19 @@
 import React from 'react'
 
-export const ContactItem = ({link, image, alt, title}) => (
+export const ContactItem = ({className, link, image, alt, title}) => (
 
-  <li>
+  <div className="social-media-item-container">
 
-    <a className="social-media big" href={link} target="_blank"> 
+    <a className={`social-media-item ${className}`} href={link} target="_blank"> 
       <img src={image} alt={alt}/>
     </a>
 
-    <p class="bold">
-      {title}
-    </p>
+    {title && 
+      <p class="bold">
+        {title}
+      </p>
+    }
 
-  </li>
+  </div>
 
 )

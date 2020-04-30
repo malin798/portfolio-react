@@ -1,0 +1,20 @@
+footer {
+  color: white;
+  background-color: #072BCE;
+
+  p {
+    margin: 5px;
+   }
+
+  .contact {
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    @media (min-width: 1025px) { 
+      height: 170px;
+    }
+  }
+
+}
