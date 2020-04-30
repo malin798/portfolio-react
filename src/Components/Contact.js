@@ -6,11 +6,11 @@ import StackOverflow from 'images/stack-color.svg'
 
 export const Contact = () => {
   return (
-    <section class="text-box">
+    <section className="text-box">
 
-      <h3 class="orange-box">FOR MORE</h3>
+      <h3 className="orange-box">FOR MORE</h3>
 
-      <div class="social-media-bottom colored-text">
+      <div className="social-media-bottom colored-text">
 
         < ContactItem 
           className="big"

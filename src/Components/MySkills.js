@@ -3,11 +3,11 @@ import { SkillsListItem } from 'Components/SkillsListItem'
 
 export const MySkills= () => (
   
-    <section class="text-box background">
+    <section className="text-box background">
       
-      <h3 class="orange-box">SKILLS</h3>
+      <h3 className="orange-box">SKILLS</h3>
 
-      <div class="skills">
+      <div className="skills">
 
           < SkillsListItem 
             title="CODE"

@@ -6,7 +6,71 @@
 @import './FeaturedProjects.scss';
 @import './OtherProjects.scss';
 
-/* styling text and color*/
+/* styling elements */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'monserrat';
+  margin: 0;
+}
+
+.orange-box {
+  display: inline-flex;
+  background-color: #EA1106;
+  color: white;
+  width: fit-content;
+  font-weight: bold;
+  padding: 4px 5px;
+}
+
+.social-media-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: transparent;
+}
+
+.background {
+  background-color: #f0f8ff85;
+}
+
+.text-box {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-top: 5px;
+  padding: 35px;
+
+  @media (min-width: 668px) {
+    padding: 60px 90px;
+  }
+
+  @media (min-width: 1025px) {
+    padding: 120px 200px;
+  }
+}
+
+.all-tags { 
+  flex-wrap: wrap;
+  font-size: 13px;
+  display: inline-flex;
+  width: fit-content;
+
+  .tag { 
+    background-color: #FDDFE7;
+    font-size: 11px;
+    margin-right: 7px;
+    padding: 4px;
+  }
+}
+
+/*Styling text*/
 
 h3 {
   font-size: 24px;
@@ -15,7 +79,6 @@ h3 {
   @media (min-width: 668px) {
     font-size: 30px;
   }
-
 }
 
 p {
@@ -65,71 +128,6 @@ a {
   font-weight: normal;
 }
 
-/* styling images and social media */
-
-.social-media-item {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50%;
-  background-color: transparent;
-}
-
-/* styling elements */
-
-* {
-  box-sizing: border-box;
-}
-
-body {
-  font-family: 'monserrat';
-  margin: 0;
-}
-
-.orange-box {
-  display: inline-flex;
-  background-color: #EA1106;
-  color: white;
-  width: fit-content;
-  font-weight: bold;
-  padding: 4px 5px;
-}
-
-.background {
-  background-color: #f0f8ff85;
-}
-
-.text-box {
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
-  margin-top: 5px;
-  padding: 35px;
-
-  @media (min-width: 668px) {
-    padding: 60px 90px;
-  }
-
-  @media (min-width: 1025px) {
-    padding: 120px 200px;
-  }
-}
-
-.all-tags { 
-  flex-wrap: wrap;
-  font-size: 13px;
-  display: inline-flex;
-  width: fit-content;
-
-  .tag { 
-    background-color: #FDDFE7;
-    font-size: 11px;
-    margin-right: 7px;
-    padding: 4px;
-  }
-}
 
 
 

@@ -9,7 +9,7 @@ export const FeaturedProject = ({ className = "", link, image, alt, title, subti
     
     <div className={`featured-project-item ${className}`}>
 
-      <a href={link} target="_blank">
+      <a href={link} target="_blank" rel="noopener noreferrer">
         <img src={image} alt={alt} className="image"></img>
         <p>
           <span className="colored-text bold">
@@ -24,7 +24,7 @@ export const FeaturedProject = ({ className = "", link, image, alt, title, subti
       <section className="all-tags">
         {tags.map((tag) => {
           return (
-          <div className="tag">{tag}</div>
+          <div className="tag" key={tag}>{tag}</div>
           )
         })}
       </section>

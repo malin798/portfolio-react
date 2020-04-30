@@ -8,7 +8,7 @@ import { ContactItem } from './ContactItem'
 export const Header = () => (
   <header>
 
-    <section class="social-media-top">
+    <section className="social-media-top">
       < ContactItem 
         className="small"
         Link="https://www.linkedin.com/in/malin-andersson-22261b190/"
@@ -32,10 +32,10 @@ export const Header = () => (
     
     </section>
 
-    <section class="text bold">
+    <section className="text bold">
 
       <p>
-        <span class="not-bold">
+        <span className="not-bold">
           Portfolio:
         </span> 
         MALIN ANDERSSON
@@ -46,7 +46,7 @@ export const Header = () => (
 
     </section>
 
-    <img class ="profile-image" src={ProfilePic} alt="profile picture"/>
+    <img className="profile-image" src={ProfilePic} alt="profile"/>
 
   </header>
 )

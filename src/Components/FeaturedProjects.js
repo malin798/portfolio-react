@@ -16,6 +16,7 @@ export const FeaturedProjects = () => {
 
       <section className="featured-project">
         < FeaturedProject 
+          key="1"
           link="https://malins-pizza-bot-project.netlify.com"
           image={Image1}
           alt="pizza bot project"
@@ -28,6 +29,7 @@ export const FeaturedProjects = () => {
           ]} 
         />
         < FeaturedProject 
+          key="2"
           link="https://malins-project-clue.netlify.com/"
           image={Image2}
           alt="Cluedo project"
@@ -40,7 +42,8 @@ export const FeaturedProjects = () => {
           ]} 
         />
         < FeaturedProject 
-          className="hidden-mobile"
+          key="3"
+          className="hkeyden-mobile"
           link="https://malins-weather-app.netlify.com/"
           image={Image3}
           alt="Weather App project"
@@ -54,7 +57,8 @@ export const FeaturedProjects = () => {
           ]} 
         />
         < FeaturedProject 
-          className="hidden-mobile"
+          key="4"
+          className="hkeyden-mobile"
           link="https://malins-business-site.netlify.com/"
           image={Image4}
           alt="Business site project"
