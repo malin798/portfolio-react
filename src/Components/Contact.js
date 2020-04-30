@@ -1,4 +1,5 @@
 import React from 'react'
+import { ContactItem } from 'Components/ContactItem'
 import Linkedin from 'images/linkedin-color.svg'
 import Github from 'images/github-color.svg'
 import StackOverflow from 'images/stack-color.svg'
@@ -11,29 +12,28 @@ export const Contact = () => {
 
       <ul class="social-media-bottom colored-text">
 
-        <li>
-          <a class="social-media big" href="https://www.linkedin.com/in/malin-andersson-22261b190/" target="_blank"> 
-            <img src={Linkedin} alt="link to linked in"/>
-          </a>
-          <p class="bold">LINKED IN</p>
-        </li>
+        < ContactItem 
+          Link="https://www.linkedin.com/in/malin-andersson-22261b190/"
+          image={Linkedin}
+          alt="link to linked in"
+          title="LINKED IN"
+        />
 
-        <li>
-          <a class="social-media big" href="https://github.com/malin798" target="_blank"> 
-            <img src={Github} alt="link to github"/> 
-          </a>
-          <p class="bold">GITHUB</p>
-        </li>
+        < ContactItem 
+          Link="https://github.com/malin798"
+          image={Github}
+          alt="link to github"
+          title="GITHUB"
+        />
 
-        <li>
-          <a class="social-media big" href="https://stackoverflow.com/users/12670065/malin-marie" target="_blank">    
-            <img src={StackOverflow} alt="link to stack overflow"/> 
-          </a>
-          <p class="bold">STACKOVERFLOW</p>
-        </li>
+        < ContactItem 
+          Link="https://stackoverflow.com/users/12670065/malin-marie"
+          image={StackOverflow}
+          alt="link to stackoverflow"
+          title="STACK OVERFLOW"
+        />
 
       </ul>
-
     </section>
     )
     }

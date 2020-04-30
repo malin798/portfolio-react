@@ -1,59 +1,50 @@
 import React from 'react'
+import { SkillsListItem } from 'Components/SkillsListItem'
 
-export const MySkills= () => {
-  return (
-    <>
+export const MySkills= () => (
+  
     <section class="text-box background">
+      
       <h3 class="orange-box">SKILLS</h3>
 
       <div class="skills">
-        <div class="list">
+
+          < SkillsListItem 
+            title="CODE"
+            skills={[
+              "Javascript",
+              "React",
+              "Redux",
+              "ES6",
+              "React Native",
+              "HTML5",
+              "SCSS",
+              "CSS",
+              "Flexbox",
+              "Node.js"
+            ]}/>
+
+          < SkillsListItem 
+            title="TOOLBOX"
+            skills={[
+              "Visual Studio Code",
+              "Postman",
+              "Github",
+              "Netlify",
+              "Android Studio",
+            ]}/>
+
+          < SkillsListItem 
+            title="MORE"
+            skills={[
+              "Customer Care",
+              "Structure",
+              "Remote work",
+              "Mob and pair programming",
+              "Agile methodology",
+            ]}/>
           
-            <p class="colored-text bold"> CODE </p> 
-            <ul>
-              <li>CSS3</li>
-              <li>Javascript</li> 
-              <li>ES6 </li>  
-              <li>React</li> 
-              <li>HTML5</li> 
-              <li>API </li> 
-              <li>Node.js </li> 
-            </ul>  
-         
-        </div>
-        
-        <div class="list">
-            <p class="colored-text bold"> TOOLBOX </p> 
-            <ul>
-              <li>Visual Studio Code</li>
-              <li>Postman</li> 
-              <li>Github</li> 
-              <li>Netlify</li> 
-              <li>Slack</li> 
-            </ul>  
-        </div>
-
-        <div class="list">
-            <p class="colored-text bold"> MORE </p> 
-            <ul>
-              <li>Customer Care</li>
-              <li>Structure</li>
-              <li>Concept</li>
-              <li>Development</li>
-              <li>Agile methodology</li>
-            </ul> 
-        </div>
-
-        <div class="list">
-          <p class="colored-text bold"> UPCOMING </p> 
-            <ul>
-              <li>Redux</li>
-            </ul> 
-        </div>
       </div>
-
     </section>
 
-  </>
-  )
-}
+)

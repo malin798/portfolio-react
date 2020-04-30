@@ -12,6 +12,7 @@ export const App = () => {
   return (
     <>
       < Header />
+      
       <main>
         < Aboutme />
         < TechFirst />

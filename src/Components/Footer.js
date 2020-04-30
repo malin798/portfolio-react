@@ -1,14 +1,20 @@
 import React from 'react'
 
-export const Footer = () => {
-  return (
-<footer class="text-box">
-    <section class="contact">
+export const Footer = () => (
+
+  <footer className="text-box">
+    <section className="contact">
+
       <h3>CONTACT</h3>
 
-      <p class="bold">Malin Andersson</p>
-      <a href=""><p>Malin.marie@hotmail.se</p></a>
+      <p className="bold">
+        Malin Andersson
+      </p>
+
+      <p>
+        Malin.marie@hotmail.se
+      </p>
+
     </section>
-    </footer>
-  )
-}
+  </footer>
+)
