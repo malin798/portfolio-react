@@ -5,7 +5,7 @@ import { Tech } from './Components/Tech'
 import { FeaturedProjects } from './Components/FeaturedProjects'
 import { OtherProjects } from './Components/OtherProjects'
 import { MySkills } from './Components/MySkills'
-import { Contact } from './Components/Contact'
+import { ForMore } from './Components/ForMore'
 import { Footer } from './Components/Footer'
 
 export const App = () => {
@@ -19,7 +19,7 @@ export const App = () => {
         < FeaturedProjects />
         < OtherProjects />  
         < MySkills />
-        < Contact />
+        < ForMore />
       </main>
 
       < Footer />

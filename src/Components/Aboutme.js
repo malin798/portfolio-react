@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Aboutme = () => {
   return (
-    <section className="about-me background">
+    <section className="about-me">
       
       <div className="decoration-element">
         <div className="colored-line"></div>

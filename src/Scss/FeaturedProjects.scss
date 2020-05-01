@@ -1,3 +1,14 @@
+@import './Variable-mixin.scss';
+
+.featured-projects {
+  @include color-theme($primary-color, $text);
+  @include text-box;
+  
+  h3 {
+    @extend %accent-textbox
+  }
+}
+
 .featured-project {
   display: flex;
   flex-wrap: wrap;
@@ -25,6 +36,12 @@
 
     @media (min-width: 668px) {
       width: 40%;
+    }
+
+    p {
+      margin-top: 25px;
+      color: $accent-color;
+      font-weight: bold;
     }
   
     .image { 

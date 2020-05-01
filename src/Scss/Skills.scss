@@ -1,3 +1,14 @@
+@import './Variable-mixin.scss';
+
+.skills-section {
+  @include color-theme($primary-color, $text);
+  @include text-box;
+  
+  h3 {
+    @extend %accent-textbox
+  }
+}
+
 .skills {
   font-family:'roboto';
   display: flex;
@@ -14,6 +25,11 @@
     
     @media (min-width: 668px) {
       width: 30%;
+    }
+
+    p {
+      color: $accent-color;
+      font-weight: bold;
     }
 
     ul {

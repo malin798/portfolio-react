@@ -4,9 +4,9 @@ import { OtherProject } from './OtherProject'
 export const OtherProjects = () => {
   return (
 
-    <section className="other-projects text-box">
+    <section className="other-projects">
 
-          <h3 className="colored-text">OTHER PROJECTS</h3>
+          <h3>OTHER PROJECTS</h3>
 
           <div className="other-project-list">
             < OtherProject 

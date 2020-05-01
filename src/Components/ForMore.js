@@ -4,13 +4,13 @@ import Linkedin from 'images/linkedin-color.svg'
 import Github from 'images/github-color.svg'
 import StackOverflow from 'images/stack-color.svg'
 
-export const Contact = () => {
+export const ForMore = () => {
   return (
-    <section className="text-box">
+    <section className="for-more">
 
-      <h3 className="orange-box">FOR MORE</h3>
+      <h3>FOR MORE</h3>
 
-      <div className="social-media-bottom colored-text">
+      <div className="social-media-bottom">
 
         < ContactItem 
           className="big"

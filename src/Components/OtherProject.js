@@ -4,17 +4,11 @@ export const OtherProject = ({link, title, subtitle, tags}) => (
   <div className="other-project-item">
       <a href={link} target="_blank" rel="noopener noreferrer">
         <p>
-
-          <span className="colored-text bold">
-            {title}
-          </span> 
-
-          {subtitle} 
-
-          <span className="colored-text bold">
-            >>
+          {title}
+          <span className="no-formatting">
+            {subtitle} 
           </span>
-
+          >>
         </p>
       </a>
 

@@ -8,9 +8,9 @@ import { FeaturedProject } from './FeaturedProject'
 
 export const FeaturedProjects = () => {
   return (
-    <section className="background text-box">
+    <section className="featured-projects">
 
-      <h3 className="orange-box">
+      <h3>
         FEATURED PROJECTS
       </h3>
 
@@ -43,7 +43,6 @@ export const FeaturedProjects = () => {
         />
         < FeaturedProject 
           key="3"
-          className="hkeyden-mobile"
           link="https://malins-weather-app.netlify.com/"
           image={Image3}
           alt="Weather App project"
@@ -58,7 +57,6 @@ export const FeaturedProjects = () => {
         />
         < FeaturedProject 
           key="4"
-          className="hkeyden-mobile"
           link="https://malins-business-site.netlify.com/"
           image={Image4}
           alt="Business site project"

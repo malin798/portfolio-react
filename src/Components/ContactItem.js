@@ -9,7 +9,7 @@ export const ContactItem = ({className, link, image, alt, title}) => (
     </a>
 
     {title && 
-      <p className="bold">
+      <p>
         {title}
       </p>
     }

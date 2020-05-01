@@ -1,0 +1,10 @@
+@import './Variable-mixin.scss';
+
+.tech-section {
+  @include color-theme(white, $text);
+  @include text-box;
+
+  h3 {
+    @extend %accent-textbox
+  }
+}

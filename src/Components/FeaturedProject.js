@@ -4,20 +4,19 @@ import React from 'react'
 // import Image3 from 'images/featured-project-weather-app.png'
 // import Image4 from 'images/featured-project-business-site.png'
 
-export const FeaturedProject = ({ className = "", link, image, alt, title, subtitle, tags }) => {
+export const FeaturedProject = ({link, image, alt, title, subtitle, tags }) => {
   return (
     
-    <div className={`featured-project-item ${className}`}>
+    <div className="featured-project-item">
 
       <a href={link} target="_blank" rel="noopener noreferrer">
         <img src={image} alt={alt} className="image"></img>
         <p>
-          <span className="colored-text bold">
-            {title}
-          </span> {subtitle} 
-          <span className="colored-text underline bold">
-            >>
-          </span> 
+          {title}
+          <span className="no-formatting">
+            {subtitle} 
+          </span>
+          >>
         </p>
       </a>
       

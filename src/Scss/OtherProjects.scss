@@ -1,4 +1,6 @@
 .other-projects {
+  @include color-theme(white, $text);
+  @include text-box;
   margin-top: 25px;
   width: 100%;
 
@@ -6,8 +8,14 @@
     margin-top: 70px;
   }
 
+  h3 {
+    color: $accent-color;
+  }
+
   p {
     margin-top: 25px;
+    color: $accent-color;
+    font-weight: bold;
   }
 
   .other-project-item {

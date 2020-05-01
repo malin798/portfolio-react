@@ -3,9 +3,9 @@ import { SkillsListItem } from 'Components/SkillsListItem'
 
 export const MySkills= () => (
   
-    <section className="text-box background">
+    <section className="skills-section">
       
-      <h3 className="orange-box">SKILLS</h3>
+      <h3>SKILLS</h3>
 
       <div className="skills">
 
