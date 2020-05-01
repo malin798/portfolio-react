@@ -2,12 +2,12 @@ import React from 'react'
 
 export const Footer = () => (
 
-  <footer className="text-box">
+  <footer>
     <section className="contact">
 
       <h3>CONTACT</h3>
 
-      <p className="bold">
+      <p>
         Malin Andersson
       </p>
 
