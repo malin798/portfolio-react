@@ -32,10 +32,10 @@ export const Header = () => (
     
     </section>
 
-    <section className="text bold">
+    <section>
 
       <p>
-        <span className="not-bold">
+        <span>
           Portfolio:
         </span> 
         MALIN ANDERSSON

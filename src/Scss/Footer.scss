@@ -1,7 +1,6 @@
 footer {
   @include text-box;
-  color: white;
-  background-color: #072BCE;
+  @include color-theme($secondary-color, white) ;
 
   p {
     margin: 5px;
