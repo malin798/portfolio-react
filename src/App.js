@@ -23,26 +23,31 @@ export const App = () => {
       .then(res => res.json())
       .then(data => {
         malinsAPI = data
-        setLoading(false)
+        setTimeout(() => setLoading(false), 1000)
+
       })
   }, [])
    
   if (loading) {
     console.log("here")
     return (
+      <>
+      < Header />
+
       <div className="loading-animation">
 
-        <h1>Please wait for the data to load</h1>
+        <h1>Portfolio loading...</h1>
        < LottieAnimation />
        
       </div>
+      </>
     )
   }
   
   return (
     <>
-      < Header />
       
+      < Header />
       <main>
         < Aboutme data={malinsAPI} />
         < Tech data={malinsAPI} />

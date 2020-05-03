@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import Lottie from 'react-lottie'
-import animationData from './Lottie/9329-loading'
+import animationData from './Lottie/14788-cat'
 
 export const LottieAnimation = () => {
 
@@ -14,12 +14,12 @@ export const LottieAnimation = () => {
   };
 
   return(
-    <div>
+    <>
          
       <Lottie options={defaultOptions}
-            height={400}
-            width={400}
+            height={300}
+            width={300}
       />
-    </div>
+    </>
   )
 }

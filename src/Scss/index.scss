@@ -21,13 +21,27 @@ body {
 }
 
 .loading-animation {
+  @include color-theme(white, $text);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;
   width: 100vw;
-  color: #FB8282;
+
+  h1 {
+    font-size: 25px;
+    margin: 0;
+    margin-top: 52px;
+
+    @media (min-width: 668px) {
+      font-size: 35px;
+    }
+  }
+
+  svg {
+    height: 80% !important;
+    width: 80% !important;
+  }
 }
 
 .social-media-item {

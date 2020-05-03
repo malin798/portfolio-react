@@ -45,10 +45,16 @@
     }
   
     .image { 
+      box-shadow: 2px 2px 8px #888888;
       width: 100%;
       margin-top: 40px;
-      background-color: #797E9D;
     }
+
+    a:hover .image {
+      transform: scale(1.04);
+      transition: transform linear 1s;
+    }
+
   }
 }
 
