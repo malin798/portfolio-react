@@ -35,13 +35,10 @@ export const Header = () => (
     <section>
 
       <p>
-        <span>
-          Portfolio:
-        </span> 
         MALIN ANDERSSON
       </p>
 
-      <h1>frontend developer</h1>
+      <h1>FRONTEND DEVELOPER</h1>
       <h2>+ Communication skills</h2>
 
     </section>
