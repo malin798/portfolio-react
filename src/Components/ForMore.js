@@ -14,7 +14,7 @@ export const ForMore = () => {
 
         < ContactItem 
           className="big"
-          Link="https://www.linkedin.com/in/malin-andersson-22261b190/"
+          link="https://www.linkedin.com/in/malin-andersson-22261b190/"
           image={Linkedin}
           alt="link to linked in"
           title="LINKED IN"
@@ -22,7 +22,7 @@ export const ForMore = () => {
 
         < ContactItem 
           className="big"
-          Link="https://github.com/malin798"
+          link="https://github.com/malin798"
           image={Github}
           alt="link to github"
           title="GITHUB"
@@ -30,7 +30,7 @@ export const ForMore = () => {
 
         < ContactItem 
           className="big"
-          Link="https://stackoverflow.com/users/12670065/malin-marie"
+          link="https://stackoverflow.com/users/12670065/malin-marie"
           image={StackOverflow}
           alt="link to stackoverflow"
           title="STACK OVERFLOW"
