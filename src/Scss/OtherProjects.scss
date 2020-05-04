@@ -9,12 +9,12 @@
   }
 
   h3 {
-    color: $accent-color;
+    @extend %accent-textbox
   }
 
   p {
     margin-top: 25px;
-    color: $accent-color;
+    color: $text-accent;
     font-weight: bold;
   }
 

@@ -1,7 +1,7 @@
 @import './Variable-mixin.scss';
 
 .for-more {
-  @include color-theme(white, $accent-color);
+  @include color-theme(white, $text-accent);
   @include text-box;
   
   h3 {
@@ -41,7 +41,7 @@
   }
 
   .big {
-    border: solid 3px $accent-color;
+    border: solid 3px $text-accent;
     padding: 16px;
     height: 60px;
     width: 60px;
