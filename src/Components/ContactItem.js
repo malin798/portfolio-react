@@ -4,7 +4,7 @@ export const ContactItem = ({className, link, image, alt, title}) => (
 
   <div className="social-media-item-container">
 
-    <a className={`social-media-item ${className}`} href={link} target="_blank" rel="noopener noreferrer"> 
+    <a className={`social-media-item ${className}`} href={link} target="_blank" rel="noreferrer"> 
       <img src={image} alt={alt}/>
     </a>
 
