@@ -12,6 +12,7 @@ export const OtherProjects = ({data}) => {
             {data.other_projects.map((item) => {
               return (
                 < OtherProject 
+                  key={item.title}
                   link={item.link}
                   title={item.title}
                   subtitle={item.description}

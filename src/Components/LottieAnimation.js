@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 import Lottie from 'react-lottie'
 import animationData from './Lottie/14788-cat'
 

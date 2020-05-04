@@ -12,6 +12,7 @@ export const MySkills= ({data}) => (
         {data.skills.map((item) => {
           return (
             < SkillsListItem 
+              key={item.title}
               title={item.title}
               skills={item.skills}
             />

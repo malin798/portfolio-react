@@ -29,7 +29,7 @@ export const App = () => {
   }, [])
    
   if (loading) {
-    console.log("here")
+   
     return (
       <>
       < Header />
