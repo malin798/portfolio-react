@@ -69,7 +69,7 @@ header {
     position: absolute;
     top: 340px;
     height: 160px;
-    width: 160px;
+    width: 170px;
     border: white solid 3px;
     border-radius: 50%;
     align-self: flex-end;
@@ -77,13 +77,13 @@ header {
     @media (min-width: 668px) {
       top: 325px;
       height: 190px;
-      width: 190px;
+      width: 200px;
     }
 
     @media (min-width: 1281px) { 
       top: 260px;
       height: 250px;
-      width: 250px;
+      width: 260px;
     }
   }
 }
