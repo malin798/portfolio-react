@@ -13,7 +13,7 @@ let malinsAPI = {}
 
 export const App = () => {
   const [loading, setLoading] = useState(true);
-
+  
   useEffect(() => {
     fetch("https://malins-portfolio-api.herokuapp.com/", {
       Header: {
