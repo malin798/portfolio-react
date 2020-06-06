@@ -2,7 +2,7 @@ import React from 'react'
 import LinkedIn from 'images/linkedin.svg'
 import GitHub from 'images/github.svg'
 import StackOverflow from 'images/stackoverflow.svg'
-import ProfilePic from 'images/profilepic.png'
+import ProfilePic from 'images/profileimage.jpg'
 import { ContactItem } from './ContactItem'
 
 export const Header = () => (
